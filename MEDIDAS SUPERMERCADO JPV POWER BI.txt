@@ -33,13 +33,23 @@ Margen Total = SUMX(VISTA_COMPLETA_VENTAS, (VISTA_COMPLETA_VENTAS[PRECIO_VENTA] 
 -- Calcula el porcentaje del margen de beneficio respecto al total de ingresos.
 -- Proporciona una visión porcentual del margen de beneficio relativo a los ingresos totales.
 
+
+-- Calcula el porcentaje del total de ingresos acumulados respecto a los ingresos totales de todos los modelos.
+-- Muestra la proporción del ingreso acumulado en relación al total, útil para análisis de contribución por modelo.
+
+Ranking_Ventas = 
+RANKX(
+    ALL(VISTA_COMPLETA_VENTAS),[Total Ingresos],, DESC
+)
+
+
 -- Total Ing. Acum:
 
 Total Ing. Acum = 
 CALCULATE(
     [Total Ingresos],
     TOPN(
-        [RANKING],
+        [Ranking_Ventas],
         ALL(VISTA_COMPLETA_VENTAS[ID_PRODUCTO]),
         [Total Ingresos],
         DESC
@@ -61,13 +71,6 @@ DIVIDE(
     0
 )
 
--- Calcula el porcentaje del total de ingresos acumulados respecto a los ingresos totales de todos los modelos.
--- Muestra la proporción del ingreso acumulado en relación al total, útil para análisis de contribución por modelo.
-
-Ranking_Ventas = 
-RANKX(
-    ALL(VISTA_COMPLETA_VENTAS),[Total Ingresos],, DESC
-)
 
 
 
