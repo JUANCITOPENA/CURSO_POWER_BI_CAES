@@ -1,0 +1,486 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #77aaff;
+}
+
+/* Estilos del contenido */
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.section {
+    padding: 2rem 0;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.section .container {
+    padding: 0 20px;
+}
+
+/* Estilos de la imagen de perfil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin: 20px 0;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+/* CSS para los proyectos */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    width: calc(33.33% - 20px); /* Para tres columnas */
+    background-color: #fff;
+    border: 1px solid transparent; /* Borde inicial transparente */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Asegura que el borde y el pseudo-elemento se posicionen correctamente */
+    overflow: hidden; /* Para evitar desbordamientos */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición suave para el borde y sombra */
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card h3 i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-card .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-card .btn:hover {
+    background-color: #555;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #ff0000, #0000ff, #ffff00); /* Gradiente de colores rojo, azul y amarillo */
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.project-card:hover::before {
+    opacity: 0.8; /* Opacidad al hacer hover */
+}
+
+.project-card:hover {
+    border-color: #00ff00; /* Cambia el color del borde al hacer hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%; /* Ajustar el ancho al 100% para ocupar todo el espacio */
+    }
+}
+
+
+
+
+
+/* Estilos de los botones sociales */
+
+.social-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.social-buttons a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.social-buttons a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-buttons a.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-buttons a.linkedin {
+    background-color: #0077B5;
+}
+
+.social-buttons a.github {
+    background-color: #333;
+}
+
+.social-buttons a.youtube {
+    background-color: #FF0000;
+}
+
+.social-buttons a.facebook {
+    background-color: #1877F2;
+}
+
+.social-buttons a.instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+
+/* FIN ICONO */
+
+
+
+
+/* Estilos del pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para la lista sin puntos */
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+/* Estilos para el botón de menú */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Estilos para el menú desplegable en móviles */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .menu-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    header nav {
+        display: none;
+        width: 100%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos del menú a la izquierda */
+        width: 100%;
+        padding-left: 20px; /* Opcional: Añade padding para separarlos del borde */
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    header nav.show {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    header nav ul li {
+        margin-left: 15px;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+    }
+
+    .section {
+        padding: 1.5rem 0;
+    }
+
+    .section ul li {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 1rem 0;
+    }
+
+    .section ul li {
+        font-size: 16px;
+    }
+
+    .profile-pic {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos del menú a la izquierda */
+        margin: 10px 0 0 0;
+        width: 100%;
+        padding-left: 20px; /* Opcional: Añade padding para separarlos del borde */
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 10px 0;
+    }
+
+    .section {
+        padding: 0.5rem 0;
+    }
+
+    .section ul li {
+        font-size: 15px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-buttons a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 16px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos del menú a la izquierda */
+        width: 100%;
+        padding-left: 20px; /* Opcional: Añade padding para separarlos del borde */
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    header nav ul li a {
+        font-size: 13px;
+    }
+
+    .section ul li {
+        font-size: 14px;
+    }
+
+    .social-buttons a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px; /* Para que haya espacio entre las tarjetas */
+    }
+    .project-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
