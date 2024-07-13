@@ -1,0 +1,94 @@
+-- Total Ingresos:
+
+Total Ingresos = SUMX(VISTA_COMPLETA_VENTAS, VISTA_COMPLETA_VENTAS[PRECIO_VENTA] * VISTA_COMPLETA_VENTAS[CANTIDAD])
+
+-- Calcula la suma total de los ingresos de las ventas, asegurándose de que el resultado sea 0 si no hay datos.
+-- Esta medida es útil para obtener los ingresos totales de las ventas, manejando posibles valores nulos.
+
+-- Cantidad Total:
+
+Cantidad Total = SUM(VISTA_COMPLETA_VENTAS[CANTIDAD])
+
+-- Suma la cantidad total de productos vendidos.
+-- Mide el volumen total de unidades vendidas.
+
+-- Costo Total:
+
+Costo Total = SUMX(VISTA_COMPLETA_VENTAS, VISTA_COMPLETA_VENTAS[PRECIO_COMPRA] * VISTA_COMPLETA_VENTAS[CANTIDAD])
+
+-- Calcula el costo total de los productos vendidos, multiplicando el precio de compra por la cantidad vendida para cada transacción.
+-- Ayuda a determinar el gasto total en productos vendidos.
+
+-- Margen Total:
+
+Margen Total = SUMX(VISTA_COMPLETA_VENTAS, (VISTA_COMPLETA_VENTAS[PRECIO_VENTA] - VISTA_COMPLETA_VENTAS[PRECIO_COMPRA]) * VISTA_COMPLETA_VENTAS[CANTIDAD])
+
+-- Calcula el margen de beneficio total, restando el precio de compra del precio de venta y multiplicando por la cantidad vendida para cada transacción.
+-- Permite analizar el beneficio bruto obtenido de las ventas.
+
+-- % Margen:
+
+% Margen = DIVIDE([Margen Total], [Total Ingresos], 0)
+
+-- Calcula el porcentaje del margen de beneficio respecto al total de ingresos.
+-- Proporciona una visión porcentual del margen de beneficio relativo a los ingresos totales.
+
+-- Total Ing. Acum:
+
+Total Ing. Acum = 
+CALCULATE(
+    [Total Ingresos],
+    TOPN(
+        [RANKING],
+        ALL(VISTA_COMPLETA_VENTAS[ID_PRODUCTO]),
+        [Total Ingresos],
+        DESC
+    )
+)
+
+-- Calcula los ingresos acumulados hasta una posición determinada en un ranking de modelos de vehículos.
+-- Es útil para ver cómo se acumulan los ingresos en función de un ranking específico.
+
+-- % del Total Acumulado:
+
+% del Total Acumulado = 
+DIVIDE(
+    [Total Ing. Acum],
+    CALCULATE(
+        [Total Ingresos],
+        ALL(VISTA_COMPLETA_VENTAS[ID_PRODUCTO])
+    ),
+    0
+)
+
+-- Calcula el porcentaje del total de ingresos acumulados respecto a los ingresos totales de todos los modelos.
+-- Muestra la proporción del ingreso acumulado en relación al total, útil para análisis de contribución por modelo.
+
+Ranking_Ventas = 
+RANKX(
+    ALL(VISTA_COMPLETA_VENTAS),[Total Ingresos],, DESC
+)
+
+
+
+-La expresión TablaCalendario crea una tabla de fechas con varias columnas derivadas, como año, mes, trimestre, semana, y día, basada en las fechas de la tabla 'VISTA_COMPLETA_VENTAS'.
+
+TablaCalendario = 
+VAR MinDate = CALCULATE( MIN('VISTA_COMPLETA_VENTAS'[FECHA]) )
+VAR MaxDate = CALCULATE( MAX('VISTA_COMPLETA_VENTAS'[FECHA]) )
+RETURN
+ADDCOLUMNS (
+    CALENDAR ( MinDate, MaxDate ),
+    "Fecha", [Date],
+    "Año", YEAR ( [Date] ),
+    "Mes Número", MONTH ( [Date] ),
+    "Mes Nombre", FORMAT ( [Date], "MMMM" ),
+    "Trimestre", "Q" & FORMAT ( [Date], "Q" ),
+    "Semana del Año", WEEKNUM ( [Date], 2 ),  -- Empieza la semana el lunes
+    "Día de la Semana", WEEKDAY ( [Date], 2 ),  -- Empieza la semana el lunes
+    "Día Nombre", FORMAT ( [Date], "dddd" ),
+    "Día del Mes", DAY ( [Date] ),
+    "Año-Mes", FORMAT ( [Date], "yyyy-MM" )
+)
+
+
