@@ -1,0 +1,501 @@
+﻿ID_VENTA,CLIENTE,PRODUCTO,CANTIDAD,PRECIO_USD,CIUDAD,FECHA_HORA
+1,LUIS GARCIA,Mouse Inalámbrico,4,180,San Pedro,5/8/2025 4:32
+2,Carlos FERNANDEZ,Teclado Mecánico RGB,5,1200,Baní,12/17/2025 23:54
+3,Luisa GOMEZ,Teclado Mecánico RGB,8,250,Punta Cana,1/5/2026 20:55
+4,David HERNANDEZ,SSD NVMe 1TB,6,1200,San Pedro,3/19/2025 15:45
+5,Marta GARCIA,Tarjeta Gráfica RTX 4070,6,75,Baní,12/13/2025 2:59
+6,Sara MARTINEZ,Laptop Lenovo ThinkPad,7,50,Puerto Plata,10/13/2025 0:15
+7,María PEREZ,SSD NVMe 1TB,6,3000,Santiago,8/25/2025 17:42
+8,rafael CRUZ,SSD NVMe 1TB,8,50,Bávaro,3/8/2025 7:22
+9,Elena VARGAS,Refrigeración Líquida,3,1800,San Cristóbal,4/19/2026 6:03
+10,José FERNANDEZ,Fuente de Poder 850W,3,50,Santiago,1/12/2025 5:50
+11,Sara MARTINEZ,Fuente de Poder 850W,7,75,Punta Cana,11/20/2025 2:56
+12,Carlos LOPEZ,Webcam Full HD,1,1200,Bávaro,3/11/2025 17:51
+13,LUIS GARCIA,SSD NVMe 1TB,1,250,Moca,5/12/2025 18:37
+14,LUIS GARCIA,Laptop HP Pavilion,3,900,Moca,4/18/2026 1:54
+15,Carlos LOPEZ,Gabinete Gamer RGB,3,1500,Santiago,2/19/2025 4:03
+16,Carlos LOPEZ,Webcam Full HD,3,180,Punta Cana,3/16/2025 7:05
+17,rafael CRUZ,iPhone 15 Pro,6,2200,San Pedro,3/10/2026 8:47
+18,Ana MARTINEZ,PC Oficina Dell,6,180,Santiago,9/14/2025 9:49
+19,Juan Pérez,Smartwatch Xiaomi,1,750,San Pedro,7/13/2025 13:37
+20,Juan MARTINEZ,Laptop HP Pavilion,7,1200,Punta Cana,2/21/2026 12:39
+21,Luisa GOMEZ,Teclado Mecánico RGB,3,50,Bávaro,1/5/2026 13:36
+22,Carlos FERNANDEZ,Audífonos Gamer HyperX,4,600,San Pedro,12/1/2025 10:36
+23,Ana MARTINEZ,PC Oficina Dell,6,250,San Pedro,7/16/2025 10:06
+24,Carlos RODRIGUEZ,Procesador Intel i9,2,1800,Punta Cana,5/9/2026 8:44
+25,LUIS RODRIGUEZ,Tablet Samsung Galaxy,5,750,Moca,10/1/2025 4:20
+26,Elena VARGAS,UPS 1500VA,5,1500,Puerto Plata,7/29/2025 22:28
+27,Paola SANCHEZ,Impresora Multifuncional,3,600,Punta Cana,12/14/2025 23:09
+28,Lorena RAMIREZ,PC Oficina Dell,8,250,Punta Cana,6/22/2025 6:44
+29,Ana LOPEZ,Laptop Gamer ASUS ROG,6,600,San Pedro,4/2/2026 22:41
+30,Marta GARCIA,Tarjeta Gráfica RTX 4070,5,1500,San Pedro,7/29/2025 11:47
+31,Marta GARCIA,Mouse Inalámbrico,1,90,Baní,9/30/2025 6:54
+32,Juan Pérez,Tablet Samsung Galaxy,5,180,Baní,2/6/2026 15:09
+33,Elena VARGAS,SSD NVMe 1TB,5,1500,Moca,10/14/2025 18:07
+34,Pedro MARTINEZ,Impresora Multifuncional,5,250,Santo Domingo,2/23/2025 10:29
+35,LUIS RODRIGUEZ,Smartwatch Xiaomi,1,50,Punta Cana,6/3/2025 12:36
+36,Luisa GOMEZ,Docking Station USB-C,5,250,Santiago,3/19/2026 13:28
+37,LUIS GARCIA,Monitor Curvo Samsung,3,450,Moca,6/18/2025 4:23
+38,rafael CRUZ,Monitor 27 Pulgadas 144Hz,8,1200,Punta Cana,10/15/2025 6:06
+39,Ana LOPEZ,Silla Gamer,4,450,Moca,10/21/2025 23:53
+40,LUIS GARCIA,Tarjeta Gráfica RTX 4070,8,3500,Moca,12/7/2025 5:47
+41,LUIS RODRIGUEZ,iPhone 15 Pro,4,1800,Baní,1/8/2025 3:55
+42,Juan MARTINEZ,Monitor Curvo Samsung,8,75,Bávaro,12/2/2025 0:08
+43,David HERNANDEZ,Fuente de Poder 850W,5,35,San Cristóbal,6/13/2025 14:07
+44,Pedro GOMEZ,Tarjeta Gráfica RTX 4070,3,3500,Santo Domingo,7/23/2025 1:14
+45,maria GARCIA,Laptop Lenovo ThinkPad,4,3000,Puerto Plata,3/23/2025 14:59
+46,maria GARCIA,Refrigeración Líquida,7,350,San Pedro,3/1/2025 16:32
+47,Sofía HERNANDEZ,Silla Gamer,5,900,Santiago,10/14/2025 6:45
+48,Carlos FERNANDEZ,iPhone 15 Pro,3,900,Baní,2/11/2025 23:08
+49,Ana MARTINEZ,Gabinete Gamer RGB,3,120,La Vega,10/7/2025 2:57
+50,maria GARCIA,Procesador Intel i9,7,180,Bávaro,3/22/2026 7:54
+51,Lorena RAMIREZ,Impresora Multifuncional,3,750,Santo Domingo,4/3/2026 11:41
+52,miguel TORRES,Docking Station USB-C,7,250,Puerto Plata,4/2/2025 3:47
+53,Carlos LOPEZ,Router WiFi 6,1,350,Punta Cana,4/15/2026 23:16
+54,miguel TORRES,Mouse Logitech G502,4,3500,Moca,1/11/2026 20:33
+55,ANDREA DIAZ,UPS 1500VA,2,180,La Vega,2/1/2026 15:09
+56,Ana LOPEZ,Silla Gamer,6,3500,Santo Domingo,10/27/2025 13:32
+57,Juan Pérez,Webcam Full HD,3,120,Santo Domingo,3/28/2026 9:44
+58,miguel TORRES,iPhone 15 Pro,5,600,Santiago,9/10/2025 14:35
+59,miguel TORRES,Teclado Mecánico RGB,1,900,La Vega,11/7/2025 23:19
+60,Juan MARTINEZ,PC Oficina Dell,6,750,Santo Domingo,7/12/2025 9:14
+61,Lorena RAMIREZ,Memoria RAM 32GB DDR5,3,35,Puerto Plata,1/14/2026 13:38
+62,María PEREZ,Tablet Samsung Galaxy,4,180,Baní,7/28/2025 1:51
+63,David RAMIREZ,Memoria RAM 32GB DDR5,5,180,San Cristóbal,2/18/2025 14:50
+64,Juan Pérez,Smartwatch Xiaomi,1,250,La Vega,4/7/2026 6:08
+65,Pedro MARTINEZ,Webcam Full HD,1,450,La Vega,10/24/2025 14:41
+66,Carlos LOPEZ,Laptop Gamer ASUS ROG,1,2500,Punta Cana,4/25/2026 15:13
+67,LUIS RODRIGUEZ,Tarjeta Gráfica RTX 4070,4,750,Punta Cana,3/9/2025 16:19
+68,Elena VARGAS,Impresora Multifuncional,2,900,Baní,3/23/2025 7:56
+69,Ana RODRIGUEZ,Smartwatch Xiaomi,8,250,Santiago,8/12/2025 20:52
+70,David RAMIREZ,UPS 1500VA,3,120,Moca,1/13/2026 8:28
+71,Sofía HERNANDEZ,Laptop HP Pavilion,5,180,Baní,12/11/2025 17:13
+72,Elena VARGAS,PC Oficina Dell,2,350,San Pedro,9/26/2025 7:44
+73,Marta GARCIA,Refrigeración Líquida,7,1200,Baní,10/15/2025 2:28
+74,Lorena MARTINEZ,Silla Gamer,6,3500,Bávaro,9/11/2025 6:27
+75,Ana MARTINEZ,Monitor Curvo Samsung,1,50,Punta Cana,2/1/2025 10:45
+76,David RAMIREZ,Cámara de Seguridad IP,1,600,La Vega,5/18/2025 22:55
+77,Pedro GOMEZ,Laptop Gamer ASUS ROG,5,250,Bávaro,2/28/2025 5:26
+78,Ana LOPEZ,Mouse Inalámbrico,3,600,Baní,5/14/2025 6:45
+79,Carlos RODRIGUEZ,PC Gamer Ryzen 9,1,900,San Pedro,3/14/2025 20:45
+80,LUIS RODRIGUEZ,Laptop HP Pavilion,7,35,Bávaro,4/27/2026 10:51
+81,rafael CRUZ,Mouse Inalámbrico,4,3000,La Vega,2/4/2026 2:31
+82,Juan Pérez,Laptop Gamer ASUS ROG,3,250,San Pedro,6/25/2025 21:11
+83,Pedro GOMEZ,Procesador Intel i9,2,35,Punta Cana,2/28/2025 22:26
+84,María PEREZ,Teclado Mecánico RGB,6,2200,Punta Cana,10/13/2025 12:49
+85,Carlos FERNANDEZ,iPhone 15 Pro,5,750,Bávaro,2/18/2026 3:58
+86,Pedro GOMEZ,Tablet Samsung Galaxy,4,75,Santo Domingo,4/23/2025 9:06
+87,Juan MARTINEZ,Impresora Multifuncional,2,450,Puerto Plata,11/15/2025 21:19
+88,Lorena MARTINEZ,SSD NVMe 1TB,8,1800,Baní,1/9/2025 20:32
+89,Ana RODRIGUEZ,Silla Gamer,2,1200,Santiago,1/13/2026 0:36
+90,Marta FERNANDEZ,Router WiFi 6,8,1500,Bávaro,9/18/2025 8:01
+91,Lorena RAMIREZ,Refrigeración Líquida,2,600,Punta Cana,2/1/2026 7:06
+92,LUIS RODRIGUEZ,Smartwatch Xiaomi,5,1800,Moca,6/23/2025 20:19
+93,LUIS RODRIGUEZ,Refrigeración Líquida,1,50,San Cristóbal,2/12/2025 21:38
+94,Carlos LOPEZ,PC Oficina Dell,7,250,Punta Cana,3/29/2026 22:37
+95,Marta GARCIA,Smartwatch Xiaomi,1,35,Santiago,2/14/2026 10:56
+96,David RAMIREZ,SSD NVMe 1TB,2,35,Punta Cana,3/2/2026 9:47
+97,Sofía HERNANDEZ,Laptop HP Pavilion,3,600,La Vega,12/28/2025 14:10
+98,Ana MARTINEZ,Webcam Full HD,3,1500,Punta Cana,11/20/2025 3:17
+99,LUIS RODRIGUEZ,Silla Gamer,5,450,La Vega,1/21/2026 9:21
+100,Ana RODRIGUEZ,Mouse Logitech G502,1,75,Puerto Plata,8/31/2025 13:21
+101,Carlos LOPEZ,UPS 1500VA,5,2200,San Pedro,3/10/2026 17:07
+102,Marta FERNANDEZ,Laptop HP Pavilion,8,450,Baní,5/10/2025 21:39
+103,Sofía HERNANDEZ,Audífonos Gamer HyperX,5,120,San Pedro,6/18/2025 17:25
+104,Carlos LOPEZ,Monitor Curvo Samsung,4,900,San Cristóbal,9/22/2025 2:24
+105,Lorena MARTINEZ,iPhone 15 Pro,7,120,San Cristóbal,1/1/2025 11:31
+106,Ana RODRIGUEZ,Monitor Curvo Samsung,7,3500,Santiago,1/6/2025 14:24
+107,LUIS RODRIGUEZ,Teclado Bluetooth,8,90,Santiago,1/3/2025 6:39
+108,ANDREA DIAZ,Cámara de Seguridad IP,2,350,Puerto Plata,4/9/2025 3:54
+109,Carlos LOPEZ,Gabinete Gamer RGB,5,600,La Vega,2/28/2026 18:56
+110,Marta GARCIA,Docking Station USB-C,4,75,San Cristóbal,2/27/2025 11:02
+111,Juan Pérez,Laptop HP Pavilion,4,600,Punta Cana,6/21/2025 17:12
+112,maria GARCIA,Audífonos Gamer HyperX,5,2200,Baní,11/12/2025 11:55
+113,David RAMIREZ,MacBook Pro M3,3,50,Bávaro,12/23/2025 18:53
+114,Marta GARCIA,Cámara de Seguridad IP,4,250,Baní,11/6/2025 14:29
+115,Juan LOPEZ,Router WiFi 6,3,900,Baní,4/1/2025 17:40
+116,ANDREA DIAZ,Monitor Curvo Samsung,5,35,Santo Domingo,11/7/2025 20:15
+117,Ana LOPEZ,Monitor 27 Pulgadas 144Hz,3,1500,Santo Domingo,2/4/2025 18:13
+118,Juan MARTINEZ,Fuente de Poder 850W,5,900,La Vega,10/11/2025 11:13
+119,Juan LOPEZ,Procesador Intel i9,2,3000,Puerto Plata,1/17/2025 22:47
+120,Elena VARGAS,Laptop Lenovo ThinkPad,7,250,La Vega,1/21/2025 5:59
+121,Pedro MARTINEZ,Teclado Mecánico RGB,8,1200,Punta Cana,3/21/2026 18:34
+122,Luisa GOMEZ,Mouse Inalámbrico,6,3500,Punta Cana,5/13/2025 3:35
+123,Elena VARGAS,SSD NVMe 1TB,6,120,Santiago,5/15/2025 23:14
+124,Ana MARTINEZ,Cámara de Seguridad IP,1,900,Punta Cana,6/10/2025 20:15
+125,Lorena MARTINEZ,Smartwatch Xiaomi,2,600,Puerto Plata,7/28/2025 4:24
+126,Carlos LOPEZ,Fuente de Poder 850W,3,600,Santo Domingo,10/8/2025 17:20
+127,Luisa GOMEZ,Silla Gamer,3,350,Punta Cana,9/26/2025 18:51
+128,Carlos LOPEZ,Silla Gamer,5,1500,Punta Cana,2/17/2025 11:47
+129,Juan Pérez,UPS 1500VA,8,350,Moca,11/30/2025 2:15
+130,Sara MARTINEZ,UPS 1500VA,5,350,Baní,1/20/2025 4:19
+131,Carlos RODRIGUEZ,Monitor Curvo Samsung,2,900,Baní,5/5/2026 4:24
+132,Pedro MARTINEZ,Cámara de Seguridad IP,6,3000,Santo Domingo,2/3/2025 0:30
+133,Paola SANCHEZ,SSD NVMe 1TB,1,1800,San Pedro,11/26/2025 17:54
+134,Carlos FERNANDEZ,Audífonos Gamer HyperX,8,35,San Pedro,1/8/2026 1:31
+135,Lorena RAMIREZ,Memoria RAM 32GB DDR5,3,1500,La Vega,3/31/2026 4:17
+136,ANDREA DIAZ,Cámara de Seguridad IP,8,600,San Cristóbal,1/11/2025 1:06
+137,Marta FERNANDEZ,PC Gamer Ryzen 9,1,350,San Cristóbal,7/21/2025 12:40
+138,Carlos FERNANDEZ,Router WiFi 6,3,600,San Cristóbal,6/28/2025 23:48
+139,rafael CRUZ,Monitor 27 Pulgadas 144Hz,1,750,San Cristóbal,2/26/2026 12:43
+140,Luisa GOMEZ,Laptop HP Pavilion,4,1500,Puerto Plata,4/1/2025 17:29
+141,Pedro GOMEZ,Router WiFi 6,2,1200,Punta Cana,1/4/2026 8:53
+142,Lorena RAMIREZ,Webcam Full HD,8,35,Baní,3/30/2025 1:02
+143,Juan LOPEZ,Silla Gamer,4,180,Santo Domingo,3/23/2025 18:02
+144,ANDREA DIAZ,Memoria RAM 32GB DDR5,5,450,Bávaro,7/21/2025 12:14
+145,LUIS GARCIA,Tarjeta Gráfica RTX 4070,5,900,La Vega,1/4/2025 5:18
+146,Luisa GOMEZ,Audífonos Gamer HyperX,8,450,Moca,11/19/2025 10:52
+147,Ana RODRIGUEZ,Docking Station USB-C,3,750,San Cristóbal,3/14/2025 23:34
+148,Lorena RAMIREZ,PC Gamer Ryzen 9,7,3000,San Cristóbal,3/20/2025 15:56
+149,David RAMIREZ,Tablet Samsung Galaxy,2,1200,Bávaro,1/31/2026 14:27
+150,Luisa GOMEZ,Laptop Lenovo ThinkPad,6,250,Santiago,2/15/2025 7:38
+151,Pedro MARTINEZ,Procesador Intel i9,4,1200,La Vega,5/6/2025 13:54
+152,Lorena MARTINEZ,Laptop Lenovo ThinkPad,2,180,Santo Domingo,1/7/2026 1:55
+153,LUIS RODRIGUEZ,Docking Station USB-C,8,1200,San Pedro,1/9/2026 8:56
+154,Carlos RODRIGUEZ,Laptop Lenovo ThinkPad,1,180,Baní,11/23/2025 14:37
+155,Lorena RAMIREZ,PC Oficina Dell,7,750,Puerto Plata,1/13/2026 5:45
+156,Lorena RAMIREZ,Cámara de Seguridad IP,3,2200,San Cristóbal,7/11/2025 23:35
+157,Paola SANCHEZ,Monitor 27 Pulgadas 144Hz,8,1800,Moca,4/4/2025 15:31
+158,Marta GARCIA,Tablet Samsung Galaxy,8,600,Baní,8/17/2025 20:58
+159,Carlos RODRIGUEZ,Procesador Intel i9,2,2200,Santo Domingo,5/10/2026 23:03
+160,Carlos RODRIGUEZ,SSD NVMe 1TB,2,900,Moca,1/6/2025 13:00
+161,María PEREZ,UPS 1500VA,6,50,San Pedro,3/6/2025 4:09
+162,Elena VARGAS,Cámara de Seguridad IP,7,3000,Santo Domingo,2/27/2025 4:18
+163,David HERNANDEZ,Gabinete Gamer RGB,4,120,San Pedro,1/30/2026 8:39
+164,Juan Pérez,MacBook Pro M3,1,50,San Pedro,1/20/2025 6:34
+165,Lorena MARTINEZ,Impresora Multifuncional,4,250,Baní,1/21/2026 0:13
+166,Sofía HERNANDEZ,Audífonos Gamer HyperX,5,2200,Bávaro,3/1/2026 12:31
+167,Ana LOPEZ,Cámara de Seguridad IP,6,350,Puerto Plata,1/9/2025 22:02
+168,Carlos RODRIGUEZ,Mouse Logitech G502,3,3500,Santo Domingo,2/25/2026 7:17
+169,miguel TORRES,PC Oficina Dell,7,600,Bávaro,6/24/2025 6:21
+170,Juan LOPEZ,Fuente de Poder 850W,8,750,Puerto Plata,2/8/2026 22:00
+171,Sara MARTINEZ,Docking Station USB-C,8,35,Moca,1/15/2025 8:42
+172,Luisa GOMEZ,Impresora Multifuncional,2,750,Santiago,4/24/2026 0:57
+173,María PEREZ,Refrigeración Líquida,6,35,La Vega,7/10/2025 12:15
+174,Ana LOPEZ,Smartwatch Xiaomi,6,450,Bávaro,4/15/2026 9:03
+175,LUIS GARCIA,Tarjeta Gráfica RTX 4070,4,600,Baní,2/10/2025 2:59
+176,Marta GARCIA,Router WiFi 6,2,75,San Pedro,2/27/2025 11:44
+177,LUIS GARCIA,PC Oficina Dell,6,350,San Pedro,1/28/2025 4:31
+178,Luisa GOMEZ,Silla Gamer,7,180,Santo Domingo,3/22/2026 11:38
+179,Juan MARTINEZ,SSD NVMe 1TB,7,450,Moca,1/12/2026 6:06
+180,Sofía HERNANDEZ,UPS 1500VA,1,50,La Vega,1/17/2025 10:25
+181,Ana LOPEZ,Router WiFi 6,3,50,La Vega,5/28/2025 22:13
+182,Ana LOPEZ,Smartwatch Xiaomi,5,350,Bávaro,4/20/2026 8:09
+183,maria GARCIA,Memoria RAM 32GB DDR5,5,1500,Santiago,2/27/2026 20:25
+184,LUIS RODRIGUEZ,Monitor Curvo Samsung,3,35,San Cristóbal,12/18/2025 6:34
+185,Juan MARTINEZ,Router WiFi 6,7,900,La Vega,11/12/2025 7:56
+186,David RAMIREZ,Cámara de Seguridad IP,7,2500,Moca,5/24/2025 14:12
+187,ANDREA DIAZ,UPS 1500VA,4,1800,San Pedro,4/1/2026 9:36
+188,José FERNANDEZ,PC Gamer Ryzen 9,4,750,Moca,2/6/2026 7:00
+189,Ana MARTINEZ,iPhone 15 Pro,1,180,Santo Domingo,4/12/2025 9:17
+190,ANDREA DIAZ,PC Oficina Dell,7,35,Santiago,2/14/2025 5:47
+191,Juan Pérez,Memoria RAM 32GB DDR5,2,90,Santiago,2/5/2025 2:41
+192,Juan Pérez,Gabinete Gamer RGB,5,900,Bávaro,3/31/2025 15:11
+193,LUIS GARCIA,Impresora Multifuncional,1,1500,La Vega,8/29/2025 6:41
+194,José FERNANDEZ,Audífonos Gamer HyperX,6,75,Bávaro,3/31/2025 23:31
+195,Marta FERNANDEZ,Fuente de Poder 850W,5,50,San Pedro,12/10/2025 6:50
+196,maria GARCIA,Tablet Samsung Galaxy,6,350,San Cristóbal,8/28/2025 3:46
+197,Pedro GOMEZ,PC Oficina Dell,7,250,Santiago,1/18/2025 5:34
+198,Sara MARTINEZ,Monitor Curvo Samsung,2,180,San Pedro,3/8/2025 5:50
+199,Pedro MARTINEZ,Teclado Bluetooth,2,3500,Puerto Plata,2/11/2025 8:15
+200,David RAMIREZ,Laptop HP Pavilion,1,1800,San Cristóbal,8/21/2025 21:08
+201,Pedro GOMEZ,Gabinete Gamer RGB,5,2500,Moca,3/8/2025 19:06
+202,Carlos FERNANDEZ,Gabinete Gamer RGB,8,3000,Bávaro,4/24/2026 16:19
+203,Carlos FERNANDEZ,Memoria RAM 32GB DDR5,2,120,Santiago,3/21/2026 21:55
+204,LUIS RODRIGUEZ,Tarjeta Gráfica RTX 4070,4,2500,La Vega,9/26/2025 19:59
+205,María PEREZ,Procesador Intel i9,5,35,Puerto Plata,7/17/2025 6:20
+206,Marta GARCIA,MacBook Pro M3,1,75,San Cristóbal,4/12/2025 17:22
+207,Ana RODRIGUEZ,Silla Gamer,6,120,La Vega,11/19/2025 16:27
+208,Ana LOPEZ,Smartwatch Xiaomi,8,180,Bávaro,7/10/2025 22:59
+209,Lorena MARTINEZ,SSD NVMe 1TB,5,450,San Pedro,11/9/2025 17:18
+210,David HERNANDEZ,Mouse Logitech G502,8,3500,La Vega,9/1/2025 9:29
+211,Pedro MARTINEZ,Silla Gamer,8,180,San Pedro,4/19/2026 21:14
+212,Marta FERNANDEZ,Procesador Intel i9,1,2500,Moca,5/24/2025 0:36
+213,ANDREA DIAZ,MacBook Pro M3,1,1200,La Vega,11/15/2025 18:19
+214,Pedro GOMEZ,iPhone 15 Pro,2,120,Punta Cana,1/25/2026 17:30
+215,ANDREA DIAZ,Smartwatch Xiaomi,3,3000,Bávaro,4/10/2025 5:19
+216,Paola SANCHEZ,Laptop Gamer ASUS ROG,2,2200,Santiago,11/7/2025 14:48
+217,Marta FERNANDEZ,Fuente de Poder 850W,7,3500,Baní,1/15/2026 16:36
+218,Juan Pérez,Impresora Multifuncional,2,1800,San Cristóbal,3/17/2026 20:03
+219,Lorena RAMIREZ,MacBook Pro M3,4,900,Bávaro,2/22/2025 23:32
+220,Marta GARCIA,Laptop Gamer ASUS ROG,2,180,San Pedro,12/28/2025 9:42
+221,rafael CRUZ,Smartwatch Xiaomi,4,350,San Cristóbal,9/2/2025 1:30
+222,Marta FERNANDEZ,SSD NVMe 1TB,7,1800,Puerto Plata,4/14/2026 1:56
+223,Sofía HERNANDEZ,SSD NVMe 1TB,2,75,Punta Cana,4/5/2025 18:11
+224,María PEREZ,Refrigeración Líquida,3,250,San Cristóbal,8/7/2025 10:10
+225,miguel TORRES,Mouse Logitech G502,2,75,Bávaro,2/6/2026 16:39
+226,Carlos LOPEZ,Memoria RAM 32GB DDR5,2,75,Punta Cana,5/7/2025 17:29
+227,Marta FERNANDEZ,Router WiFi 6,4,3000,Bávaro,10/28/2025 14:44
+228,rafael CRUZ,Smartwatch Xiaomi,6,180,Moca,3/11/2025 7:52
+229,Carlos LOPEZ,Teclado Bluetooth,8,2200,Puerto Plata,3/28/2026 12:45
+230,Juan LOPEZ,Mouse Inalámbrico,6,75,San Cristóbal,9/21/2025 1:34
+231,David RAMIREZ,Router WiFi 6,1,1800,Punta Cana,9/30/2025 1:56
+232,Marta GARCIA,SSD NVMe 1TB,2,1800,San Cristóbal,3/19/2026 21:23
+233,María PEREZ,Router WiFi 6,1,250,San Pedro,2/8/2025 8:28
+234,Luisa GOMEZ,Docking Station USB-C,7,180,La Vega,11/29/2025 7:39
+235,Juan MARTINEZ,Mouse Inalámbrico,6,75,San Cristóbal,1/29/2026 19:32
+236,Pedro MARTINEZ,Router WiFi 6,1,250,Punta Cana,10/12/2025 13:47
+237,rafael CRUZ,Monitor Curvo Samsung,3,35,Bávaro,10/2/2025 10:57
+238,David RAMIREZ,Silla Gamer,6,90,San Pedro,8/30/2025 10:05
+239,Carlos RODRIGUEZ,MacBook Pro M3,7,180,Santo Domingo,2/7/2025 19:52
+240,José FERNANDEZ,PC Gamer Ryzen 9,6,2500,Puerto Plata,8/26/2025 1:14
+241,ANDREA DIAZ,Monitor Curvo Samsung,1,2200,La Vega,3/22/2025 9:49
+242,Elena VARGAS,Docking Station USB-C,7,750,Santo Domingo,4/9/2025 22:55
+243,Pedro GOMEZ,Smartwatch Xiaomi,8,3500,San Cristóbal,10/30/2025 13:31
+244,maria GARCIA,SSD NVMe 1TB,2,2200,Baní,3/20/2025 7:23
+245,Sofía HERNANDEZ,Refrigeración Líquida,8,750,Santiago,8/31/2025 17:04
+246,Ana MARTINEZ,Audífonos Gamer HyperX,3,50,Baní,3/21/2025 13:23
+247,Lorena MARTINEZ,Laptop HP Pavilion,4,450,La Vega,11/24/2025 4:52
+248,Juan Pérez,Silla Gamer,5,900,Moca,2/18/2026 6:46
+249,LUIS GARCIA,Audífonos Gamer HyperX,5,90,Baní,9/13/2025 21:45
+250,Elena VARGAS,Gabinete Gamer RGB,1,900,San Pedro,11/27/2025 4:22
+251,Juan MARTINEZ,Laptop Gamer ASUS ROG,1,120,Punta Cana,9/20/2025 0:17
+252,Juan MARTINEZ,Tablet Samsung Galaxy,7,1200,Bávaro,3/22/2026 7:49
+253,Carlos FERNANDEZ,Gabinete Gamer RGB,2,900,San Cristóbal,12/30/2025 5:36
+254,Lorena RAMIREZ,UPS 1500VA,3,90,Santo Domingo,10/7/2025 12:01
+255,LUIS GARCIA,PC Gamer Ryzen 9,6,600,Puerto Plata,3/17/2025 2:39
+256,Lorena MARTINEZ,Fuente de Poder 850W,1,600,Santiago,9/30/2025 2:52
+257,Lorena RAMIREZ,PC Oficina Dell,7,2500,Santiago,6/4/2025 17:13
+258,Ana MARTINEZ,UPS 1500VA,8,350,La Vega,1/16/2026 4:38
+259,Paola SANCHEZ,MacBook Pro M3,2,750,Baní,5/13/2025 14:40
+260,LUIS RODRIGUEZ,SSD NVMe 1TB,8,180,Bávaro,11/25/2025 18:30
+261,David HERNANDEZ,Silla Gamer,8,90,San Cristóbal,1/8/2025 5:30
+262,Lorena RAMIREZ,PC Gamer Ryzen 9,2,350,Bávaro,9/19/2025 15:16
+263,José FERNANDEZ,SSD NVMe 1TB,7,1800,La Vega,4/12/2025 17:00
+264,Lorena RAMIREZ,Laptop Lenovo ThinkPad,5,1800,Santiago,1/1/2025 20:06
+265,maria GARCIA,Laptop Lenovo ThinkPad,7,450,San Pedro,6/3/2025 10:23
+266,Ana RODRIGUEZ,Teclado Mecánico RGB,3,3500,Santo Domingo,2/6/2025 11:08
+267,miguel TORRES,Cámara de Seguridad IP,6,3500,San Pedro,4/3/2025 7:45
+268,Juan LOPEZ,Teclado Bluetooth,3,250,Santo Domingo,10/27/2025 1:34
+269,Ana RODRIGUEZ,Monitor Curvo Samsung,1,750,Santo Domingo,5/5/2026 14:42
+270,Carlos RODRIGUEZ,Silla Gamer,6,250,Baní,4/25/2025 14:20
+271,Lorena MARTINEZ,Gabinete Gamer RGB,5,350,Santiago,6/22/2025 1:50
+272,Juan Pérez,Gabinete Gamer RGB,2,75,San Cristóbal,12/14/2025 20:40
+273,maria GARCIA,Cámara de Seguridad IP,7,180,San Pedro,10/4/2025 19:17
+274,LUIS RODRIGUEZ,Laptop HP Pavilion,4,900,Moca,3/30/2026 19:49
+275,María PEREZ,Monitor 27 Pulgadas 144Hz,5,1200,San Pedro,8/18/2025 10:31
+276,LUIS GARCIA,Audífonos Gamer HyperX,5,900,Moca,3/13/2026 20:32
+277,Lorena RAMIREZ,Tablet Samsung Galaxy,4,2200,Baní,3/13/2025 12:43
+278,David RAMIREZ,Smartwatch Xiaomi,7,450,Moca,9/25/2025 10:02
+279,Marta FERNANDEZ,PC Oficina Dell,5,900,San Pedro,5/14/2025 5:56
+280,Marta FERNANDEZ,Mouse Logitech G502,5,50,Puerto Plata,5/5/2026 14:36
+281,Marta GARCIA,Smartwatch Xiaomi,4,1800,Santiago,7/25/2025 6:00
+282,LUIS GARCIA,Mouse Logitech G502,8,1800,San Pedro,1/28/2025 0:56
+283,Luisa GOMEZ,Router WiFi 6,4,50,Santiago,1/30/2025 10:47
+284,Sara MARTINEZ,Tablet Samsung Galaxy,4,3500,Puerto Plata,5/4/2025 23:24
+285,Pedro GOMEZ,Refrigeración Líquida,6,3500,Punta Cana,3/3/2025 3:19
+286,Ana MARTINEZ,Audífonos Gamer HyperX,3,250,Baní,4/9/2025 22:26
+287,Pedro MARTINEZ,Laptop Gamer ASUS ROG,3,3000,Baní,3/17/2026 17:19
+288,David RAMIREZ,Refrigeración Líquida,6,120,Puerto Plata,4/5/2025 0:52
+289,Ana LOPEZ,Laptop Lenovo ThinkPad,5,90,Santiago,4/10/2025 18:07
+290,Ana LOPEZ,Docking Station USB-C,5,1200,San Pedro,6/15/2025 9:51
+291,LUIS GARCIA,Silla Gamer,2,3500,Punta Cana,11/26/2025 3:13
+292,Juan MARTINEZ,Impresora Multifuncional,1,2200,Baní,3/26/2026 3:34
+293,Paola SANCHEZ,MacBook Pro M3,3,180,Punta Cana,8/27/2025 11:53
+294,LUIS RODRIGUEZ,Mouse Inalámbrico,3,2200,Moca,7/16/2025 10:56
+295,Carlos RODRIGUEZ,Impresora Multifuncional,7,250,San Cristóbal,9/5/2025 8:53
+296,Ana MARTINEZ,PC Oficina Dell,2,3500,La Vega,9/10/2025 10:03
+297,Sofía HERNANDEZ,Monitor Curvo Samsung,8,3000,Punta Cana,3/2/2025 0:29
+298,Lorena RAMIREZ,Cámara de Seguridad IP,5,50,Santo Domingo,2/4/2025 19:47
+299,Juan Pérez,PC Gamer Ryzen 9,7,1200,Puerto Plata,11/2/2025 11:09
+300,Marta GARCIA,Mouse Inalámbrico,2,3000,La Vega,8/14/2025 4:15
+301,María PEREZ,Audífonos Gamer HyperX,4,120,Santo Domingo,2/8/2026 16:31
+302,Juan Pérez,UPS 1500VA,5,50,Santiago,1/25/2025 13:27
+303,Sofía HERNANDEZ,PC Gamer Ryzen 9,7,3500,Santiago,6/15/2025 7:27
+304,Juan LOPEZ,UPS 1500VA,4,900,Baní,1/18/2026 9:29
+305,ANDREA DIAZ,Smartwatch Xiaomi,2,2500,Puerto Plata,12/30/2025 0:34
+306,maria GARCIA,Laptop Lenovo ThinkPad,3,900,San Cristóbal,12/20/2025 0:14
+307,Carlos RODRIGUEZ,Router WiFi 6,3,1800,Santiago,2/27/2025 1:50
+308,LUIS GARCIA,Silla Gamer,3,75,Moca,7/20/2025 6:28
+309,Ana RODRIGUEZ,MacBook Pro M3,6,35,La Vega,6/4/2025 8:28
+310,David HERNANDEZ,Refrigeración Líquida,7,50,Santo Domingo,4/27/2026 20:42
+311,Elena VARGAS,Laptop HP Pavilion,2,2500,San Cristóbal,6/10/2025 21:42
+312,Lorena RAMIREZ,Smartwatch Xiaomi,1,50,La Vega,7/11/2025 10:18
+313,Marta FERNANDEZ,Tarjeta Gráfica RTX 4070,6,75,Santiago,3/11/2025 23:36
+314,Marta GARCIA,Mouse Inalámbrico,5,250,Baní,4/12/2025 9:32
+315,Sara MARTINEZ,Gabinete Gamer RGB,1,120,Baní,3/21/2025 14:08
+316,Marta FERNANDEZ,Refrigeración Líquida,6,35,Punta Cana,10/13/2025 23:06
+317,Elena VARGAS,Tarjeta Gráfica RTX 4070,7,1200,Punta Cana,4/7/2025 3:54
+318,Carlos LOPEZ,Webcam Full HD,7,2500,Punta Cana,9/23/2025 19:31
+319,Marta GARCIA,Mouse Logitech G502,4,900,Punta Cana,3/6/2026 0:11
+320,Ana MARTINEZ,Webcam Full HD,4,350,San Cristóbal,7/21/2025 20:38
+321,Lorena RAMIREZ,Router WiFi 6,7,35,Baní,2/13/2026 17:54
+322,miguel TORRES,Webcam Full HD,4,50,Santiago,12/1/2025 6:13
+323,maria GARCIA,Tablet Samsung Galaxy,6,35,Bávaro,4/10/2026 7:02
+324,Pedro GOMEZ,Teclado Bluetooth,4,1800,San Pedro,1/29/2025 22:08
+325,Ana RODRIGUEZ,Tarjeta Gráfica RTX 4070,7,90,San Pedro,9/6/2025 11:49
+326,Lorena MARTINEZ,Docking Station USB-C,7,900,Baní,8/2/2025 8:07
+327,Juan LOPEZ,Monitor 27 Pulgadas 144Hz,3,35,Puerto Plata,9/8/2025 23:01
+328,miguel TORRES,Gabinete Gamer RGB,5,90,San Cristóbal,5/4/2025 22:43
+329,Pedro GOMEZ,Cámara de Seguridad IP,1,3000,San Pedro,7/23/2025 8:24
+330,Ana RODRIGUEZ,Laptop HP Pavilion,2,1800,San Pedro,9/29/2025 15:51
+331,Carlos LOPEZ,Mouse Logitech G502,4,3000,Moca,4/27/2026 2:23
+332,ANDREA DIAZ,Mouse Inalámbrico,4,3500,Bávaro,7/2/2025 15:31
+333,Ana MARTINEZ,Teclado Mecánico RGB,3,750,Bávaro,1/12/2025 15:15
+334,Carlos RODRIGUEZ,Laptop Lenovo ThinkPad,4,1500,San Pedro,8/14/2025 14:18
+335,LUIS GARCIA,Mouse Logitech G502,5,3000,Santiago,3/9/2025 2:30
+336,LUIS RODRIGUEZ,Gabinete Gamer RGB,3,750,Bávaro,11/10/2025 21:59
+337,Ana LOPEZ,PC Oficina Dell,1,750,Santiago,3/20/2025 17:39
+338,Lorena MARTINEZ,Memoria RAM 32GB DDR5,1,50,Puerto Plata,9/3/2025 20:28
+339,rafael CRUZ,Fuente de Poder 850W,7,180,Punta Cana,12/1/2025 16:03
+340,ANDREA DIAZ,Smartwatch Xiaomi,4,600,Puerto Plata,1/27/2026 2:31
+341,maria GARCIA,Monitor Curvo Samsung,2,250,Moca,2/15/2026 15:14
+342,ANDREA DIAZ,Gabinete Gamer RGB,6,35,Punta Cana,2/28/2026 13:15
+343,Juan Pérez,Webcam Full HD,6,50,Punta Cana,8/24/2025 7:09
+344,Pedro GOMEZ,Teclado Bluetooth,6,35,La Vega,2/15/2026 10:35
+345,rafael CRUZ,MacBook Pro M3,7,1200,La Vega,3/13/2026 6:46
+346,María PEREZ,Docking Station USB-C,8,75,Bávaro,8/11/2025 23:27
+347,rafael CRUZ,Cámara de Seguridad IP,8,180,Baní,4/28/2026 11:51
+348,Ana LOPEZ,Router WiFi 6,3,50,La Vega,1/18/2025 22:36
+349,Ana RODRIGUEZ,Smartwatch Xiaomi,6,350,Punta Cana,2/26/2025 10:39
+350,LUIS RODRIGUEZ,MacBook Pro M3,5,75,Santo Domingo,3/6/2026 8:57
+351,rafael CRUZ,Monitor 27 Pulgadas 144Hz,5,450,Moca,3/2/2025 15:17
+352,David HERNANDEZ,Impresora Multifuncional,5,250,Punta Cana,10/5/2025 0:20
+353,ANDREA DIAZ,Monitor 27 Pulgadas 144Hz,1,900,Moca,3/25/2025 3:45
+354,Lorena MARTINEZ,PC Gamer Ryzen 9,8,35,Baní,4/4/2025 20:05
+355,Marta GARCIA,Silla Gamer,2,50,Santiago,3/28/2026 10:43
+356,Juan MARTINEZ,Laptop HP Pavilion,3,250,Puerto Plata,12/19/2025 5:52
+357,miguel TORRES,Gabinete Gamer RGB,2,450,Moca,3/1/2026 19:39
+358,Ana RODRIGUEZ,Laptop Gamer ASUS ROG,4,2500,Santo Domingo,2/15/2026 17:58
+359,Carlos LOPEZ,Teclado Mecánico RGB,6,50,San Pedro,2/17/2025 14:21
+360,Juan Pérez,iPhone 15 Pro,2,750,Punta Cana,1/13/2025 16:22
+361,LUIS RODRIGUEZ,Webcam Full HD,2,50,Moca,2/23/2025 16:35
+362,Lorena MARTINEZ,Laptop HP Pavilion,4,900,San Pedro,3/20/2025 18:37
+363,rafael CRUZ,Laptop Gamer ASUS ROG,5,2500,San Pedro,4/1/2025 23:59
+364,ANDREA DIAZ,Docking Station USB-C,8,2200,Baní,12/5/2025 0:54
+365,Pedro MARTINEZ,Laptop HP Pavilion,2,3500,Bávaro,10/13/2025 6:59
+366,rafael CRUZ,Procesador Intel i9,4,900,Punta Cana,8/10/2025 6:25
+367,Ana MARTINEZ,Laptop Gamer ASUS ROG,6,75,Bávaro,2/27/2026 6:05
+368,Ana RODRIGUEZ,Tablet Samsung Galaxy,6,3000,Bávaro,1/21/2026 10:14
+369,Pedro MARTINEZ,Smartwatch Xiaomi,1,180,San Pedro,1/28/2025 22:14
+370,David RAMIREZ,Smartwatch Xiaomi,6,350,Baní,4/23/2026 22:08
+371,Lorena RAMIREZ,iPhone 15 Pro,2,250,Punta Cana,3/19/2026 16:14
+372,Marta FERNANDEZ,Tablet Samsung Galaxy,6,600,Moca,3/10/2026 8:50
+373,María PEREZ,Audífonos Gamer HyperX,6,450,San Cristóbal,4/20/2025 7:38
+374,Pedro GOMEZ,Monitor Curvo Samsung,7,50,Moca,5/20/2025 13:43
+375,ANDREA DIAZ,Audífonos Gamer HyperX,1,120,Moca,4/29/2025 14:11
+376,Luisa GOMEZ,Memoria RAM 32GB DDR5,8,2500,Puerto Plata,7/7/2025 13:49
+377,rafael CRUZ,Teclado Bluetooth,5,900,La Vega,4/10/2025 4:57
+378,Paola SANCHEZ,Monitor Curvo Samsung,7,3000,Moca,11/15/2025 17:48
+379,Juan LOPEZ,Monitor 27 Pulgadas 144Hz,8,90,La Vega,10/13/2025 15:08
+380,Marta FERNANDEZ,Mouse Logitech G502,1,1500,San Cristóbal,5/8/2026 13:51
+381,Pedro MARTINEZ,Monitor Curvo Samsung,8,2500,San Cristóbal,11/18/2025 16:36
+382,Ana MARTINEZ,Smartwatch Xiaomi,3,450,Santiago,10/31/2025 18:53
+383,Carlos FERNANDEZ,Monitor 27 Pulgadas 144Hz,6,450,Bávaro,5/2/2025 0:46
+384,Pedro MARTINEZ,SSD NVMe 1TB,3,1500,San Pedro,10/23/2025 11:50
+385,Juan MARTINEZ,Audífonos Gamer HyperX,3,90,Santiago,7/30/2025 13:51
+386,Juan MARTINEZ,Webcam Full HD,3,35,Punta Cana,6/19/2025 7:40
+387,maria GARCIA,Silla Gamer,6,250,Santo Domingo,5/31/2025 6:03
+388,José FERNANDEZ,Router WiFi 6,6,180,Santiago,9/13/2025 6:14
+389,Luisa GOMEZ,Tarjeta Gráfica RTX 4070,2,1200,Punta Cana,2/22/2026 2:56
+390,Sofía HERNANDEZ,Fuente de Poder 850W,2,2200,Santiago,3/17/2025 15:55
+391,José FERNANDEZ,Procesador Intel i9,5,2500,Puerto Plata,12/28/2025 17:40
+392,Luisa GOMEZ,Monitor Curvo Samsung,7,1500,Bávaro,4/27/2026 14:31
+393,David RAMIREZ,Mouse Logitech G502,3,1800,Baní,10/18/2025 3:51
+394,Lorena MARTINEZ,Tablet Samsung Galaxy,4,900,Puerto Plata,3/16/2026 16:10
+395,Pedro MARTINEZ,Gabinete Gamer RGB,3,600,San Pedro,3/31/2026 18:00
+396,Sara MARTINEZ,Audífonos Gamer HyperX,6,50,Puerto Plata,5/8/2025 3:51
+397,LUIS GARCIA,Procesador Intel i9,2,180,Punta Cana,2/8/2026 3:31
+398,David RAMIREZ,Audífonos Gamer HyperX,7,3000,Puerto Plata,4/15/2026 21:39
+399,maria GARCIA,iPhone 15 Pro,4,2200,Santiago,2/10/2026 4:49
+400,Sofía HERNANDEZ,Mouse Logitech G502,4,120,Puerto Plata,4/30/2026 21:43
+401,Marta FERNANDEZ,Gabinete Gamer RGB,6,50,Moca,10/13/2025 9:07
+402,Juan MARTINEZ,Audífonos Gamer HyperX,3,2200,La Vega,10/20/2025 6:07
+403,ANDREA DIAZ,Monitor Curvo Samsung,5,3500,Punta Cana,1/25/2026 2:59
+404,rafael CRUZ,Fuente de Poder 850W,8,3000,Santiago,12/15/2025 5:07
+405,Lorena MARTINEZ,Router WiFi 6,5,2500,Baní,4/21/2026 10:00
+406,Luisa GOMEZ,Memoria RAM 32GB DDR5,7,50,Moca,12/21/2025 6:45
+407,Carlos FERNANDEZ,Gabinete Gamer RGB,1,3000,San Pedro,1/25/2025 0:16
+408,Paola SANCHEZ,Laptop Gamer ASUS ROG,2,1800,San Pedro,7/30/2025 20:45
+409,Carlos RODRIGUEZ,Docking Station USB-C,2,75,Santiago,2/23/2025 2:10
+410,Carlos RODRIGUEZ,Impresora Multifuncional,5,450,Moca,2/1/2026 10:27
+411,Paola SANCHEZ,Laptop Lenovo ThinkPad,7,3000,Puerto Plata,12/12/2025 20:54
+412,María PEREZ,Audífonos Gamer HyperX,5,50,Santo Domingo,1/27/2025 19:08
+413,Marta FERNANDEZ,Fuente de Poder 850W,7,3500,Santiago,12/28/2025 15:59
+414,Pedro MARTINEZ,Smartwatch Xiaomi,3,250,Santo Domingo,10/6/2025 23:38
+415,Lorena RAMIREZ,Teclado Mecánico RGB,4,1500,Baní,2/18/2025 19:15
+416,David HERNANDEZ,Laptop Lenovo ThinkPad,6,900,Moca,3/1/2025 22:29
+417,Carlos LOPEZ,Procesador Intel i9,1,120,Santiago,2/24/2026 12:29
+418,LUIS RODRIGUEZ,Monitor Curvo Samsung,7,900,Baní,3/16/2026 9:47
+419,Ana LOPEZ,Tablet Samsung Galaxy,4,1800,Santo Domingo,4/10/2026 13:37
+420,Marta FERNANDEZ,Tarjeta Gráfica RTX 4070,2,120,La Vega,3/17/2026 0:41
+421,María PEREZ,PC Gamer Ryzen 9,2,600,Punta Cana,9/13/2025 23:56
+422,miguel TORRES,Mouse Logitech G502,4,90,Santiago,12/25/2025 18:05
+423,LUIS GARCIA,Impresora Multifuncional,6,250,Bávaro,3/2/2026 6:48
+424,Ana MARTINEZ,Tablet Samsung Galaxy,6,900,Puerto Plata,12/31/2025 5:54
+425,miguel TORRES,Teclado Bluetooth,3,3500,San Cristóbal,1/23/2026 4:41
+426,Juan LOPEZ,Teclado Bluetooth,1,250,Punta Cana,2/16/2026 3:19
+427,maria GARCIA,Monitor Curvo Samsung,6,600,San Pedro,2/28/2026 8:38
+428,rafael CRUZ,PC Gamer Ryzen 9,4,90,Moca,5/21/2025 3:08
+429,María PEREZ,Tarjeta Gráfica RTX 4070,1,90,La Vega,10/17/2025 19:45
+430,Luisa GOMEZ,Laptop Gamer ASUS ROG,8,35,Santiago,2/3/2025 12:30
+431,miguel TORRES,Cámara de Seguridad IP,1,1200,Santo Domingo,11/10/2025 23:23
+432,LUIS GARCIA,Tarjeta Gráfica RTX 4070,5,350,Santo Domingo,2/18/2025 0:14
+433,rafael CRUZ,MacBook Pro M3,3,75,Moca,4/11/2026 16:02
+434,rafael CRUZ,Teclado Bluetooth,4,750,San Pedro,4/12/2026 23:16
+435,rafael CRUZ,Audífonos Gamer HyperX,3,75,Moca,4/21/2026 23:47
+436,miguel TORRES,Fuente de Poder 850W,1,50,Puerto Plata,2/27/2026 5:57
+437,Lorena RAMIREZ,MacBook Pro M3,4,75,Puerto Plata,9/26/2025 13:29
+438,Lorena RAMIREZ,PC Oficina Dell,3,900,Baní,3/22/2026 7:15
+439,Marta FERNANDEZ,Mouse Logitech G502,1,350,Moca,12/22/2025 19:04
+440,Marta GARCIA,Laptop HP Pavilion,8,35,Santo Domingo,2/8/2025 20:37
+441,Sofía HERNANDEZ,Silla Gamer,8,3500,Santiago,5/26/2025 21:19
+442,Pedro GOMEZ,Monitor 27 Pulgadas 144Hz,1,180,Baní,10/30/2025 15:07
+443,Carlos FERNANDEZ,Smartwatch Xiaomi,3,1800,San Pedro,8/14/2025 8:03
+444,Marta FERNANDEZ,PC Gamer Ryzen 9,5,180,Santo Domingo,3/19/2026 9:00
+445,Marta GARCIA,Fuente de Poder 850W,7,2500,Bávaro,12/19/2025 5:26
+446,rafael CRUZ,Mouse Inalámbrico,2,1800,La Vega,9/6/2025 19:32
+447,David RAMIREZ,Teclado Mecánico RGB,6,1800,Punta Cana,8/31/2025 7:18
+448,maria GARCIA,Fuente de Poder 850W,8,120,San Pedro,5/5/2025 21:35
+449,Ana LOPEZ,iPhone 15 Pro,3,350,Punta Cana,8/30/2025 18:22
+450,David RAMIREZ,Laptop Gamer ASUS ROG,1,250,Puerto Plata,2/6/2026 18:41
+451,Ana MARTINEZ,UPS 1500VA,2,180,Punta Cana,9/16/2025 14:05
+452,rafael CRUZ,Laptop Gamer ASUS ROG,2,2500,Bávaro,2/21/2025 18:07
+453,LUIS RODRIGUEZ,Tablet Samsung Galaxy,5,1500,Santiago,10/31/2025 22:58
+454,Juan MARTINEZ,Tablet Samsung Galaxy,1,900,Baní,11/26/2025 15:17
+455,Juan MARTINEZ,PC Oficina Dell,5,600,Santiago,3/11/2026 13:40
+456,Juan Pérez,Fuente de Poder 850W,4,120,San Cristóbal,4/21/2026 19:26
+457,Ana LOPEZ,Teclado Mecánico RGB,1,35,Baní,1/6/2026 13:10
+458,Juan Pérez,UPS 1500VA,1,3000,San Cristóbal,5/5/2026 14:52
+459,Sofía HERNANDEZ,Laptop Gamer ASUS ROG,6,600,Moca,4/27/2026 14:19
+460,ANDREA DIAZ,Laptop Gamer ASUS ROG,1,1200,Puerto Plata,1/8/2026 7:20
+461,Lorena MARTINEZ,Procesador Intel i9,2,750,Bávaro,3/19/2025 4:03
+462,Juan Pérez,Monitor Curvo Samsung,5,250,San Pedro,2/15/2026 9:00
+463,Luisa GOMEZ,Teclado Bluetooth,3,2200,Baní,2/13/2026 6:10
+464,David RAMIREZ,Fuente de Poder 850W,6,3500,San Cristóbal,8/14/2025 16:21
+465,rafael CRUZ,Monitor Curvo Samsung,6,2500,Santo Domingo,1/10/2026 16:20
+466,Elena VARGAS,SSD NVMe 1TB,8,1200,Santiago,1/23/2025 23:37
+467,Luisa GOMEZ,PC Gamer Ryzen 9,1,2200,San Pedro,12/18/2025 13:44
+468,Marta FERNANDEZ,PC Gamer Ryzen 9,2,450,San Pedro,3/26/2026 5:24
+469,rafael CRUZ,Tarjeta Gráfica RTX 4070,6,250,Bávaro,7/17/2025 12:53
+470,Luisa GOMEZ,Webcam Full HD,5,900,San Pedro,9/4/2025 17:50
+471,Juan MARTINEZ,UPS 1500VA,5,35,Moca,9/12/2025 13:37
+472,LUIS GARCIA,Refrigeración Líquida,6,180,Santiago,1/31/2026 13:08
+473,Pedro GOMEZ,Smartwatch Xiaomi,6,50,Punta Cana,11/2/2025 14:05
+474,Juan MARTINEZ,Laptop Lenovo ThinkPad,7,600,Puerto Plata,10/26/2025 15:27
+475,Pedro GOMEZ,Memoria RAM 32GB DDR5,6,90,Santo Domingo,3/2/2025 8:29
+476,Lorena MARTINEZ,Procesador Intel i9,1,3500,Punta Cana,7/29/2025 16:39
+477,María PEREZ,Mouse Inalámbrico,8,450,Bávaro,3/6/2025 17:14
+478,rafael CRUZ,Router WiFi 6,8,350,La Vega,12/27/2025 0:01
+479,Lorena RAMIREZ,Procesador Intel i9,7,120,La Vega,11/4/2025 17:20
+480,Ana MARTINEZ,Cámara de Seguridad IP,4,3000,Baní,10/20/2025 10:15
+481,Marta GARCIA,Webcam Full HD,7,3500,Santo Domingo,3/21/2026 0:25
+482,Elena VARGAS,Laptop Gamer ASUS ROG,6,3500,San Cristóbal,4/14/2025 23:39
+483,Juan LOPEZ,Audífonos Gamer HyperX,7,250,San Cristóbal,5/4/2025 11:19
+484,María PEREZ,Laptop Lenovo ThinkPad,2,2500,Santiago,2/26/2026 23:18
+485,Ana MARTINEZ,Docking Station USB-C,7,120,San Cristóbal,1/20/2026 12:53
+486,Ana RODRIGUEZ,Silla Gamer,5,90,Santiago,6/23/2025 18:39
+487,LUIS RODRIGUEZ,Tarjeta Gráfica RTX 4070,5,180,Punta Cana,12/19/2025 13:40
+488,Lorena RAMIREZ,Laptop HP Pavilion,8,3500,La Vega,10/8/2025 13:57
+489,Lorena RAMIREZ,Procesador Intel i9,2,250,Baní,5/1/2026 17:41
+490,Lorena RAMIREZ,Impresora Multifuncional,8,350,Puerto Plata,10/24/2025 22:46
+491,miguel TORRES,Laptop Gamer ASUS ROG,8,1800,Moca,1/27/2025 7:06
+492,Ana LOPEZ,Gabinete Gamer RGB,1,1200,Baní,3/31/2025 15:07
+493,David HERNANDEZ,Docking Station USB-C,4,3000,Bávaro,2/4/2026 22:48
+494,Sara MARTINEZ,Refrigeración Líquida,5,250,La Vega,3/3/2025 5:21
+495,Ana MARTINEZ,Mouse Logitech G502,4,35,Bávaro,11/6/2025 13:23
+496,David HERNANDEZ,Monitor 27 Pulgadas 144Hz,6,90,Santiago,11/11/2025 17:28
+497,Carlos LOPEZ,iPhone 15 Pro,5,750,La Vega,3/11/2025 17:44
+498,Marta FERNANDEZ,Fuente de Poder 850W,5,2200,Santiago,7/16/2025 22:00
+499,Paola SANCHEZ,Silla Gamer,1,2500,La Vega,8/18/2025 23:53
+500,Paola SANCHEZ,Webcam Full HD,1,600,Santo Domingo,9/19/2025 15:57
